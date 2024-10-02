@@ -89,6 +89,7 @@ input {
     font-size: 15px;
     border-radius: 5px;
     background-color: rgb(245, 245, 245);
+    border: 1px solid #ccc;
 }
 
 .right-side {
@@ -102,13 +103,14 @@ input {
     padding-bottom: 20px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     padding-left: 60px;
+    margin-top: 70px;
 }
 
 legend {
     font-size: 25px;
     color: rgb(39, 39, 39);
     font-weight: 600;
-    margin-top: 40px;
+    margin-top: 20px;
     margin-bottom: 20px;
     padding-top: 20px;
 }
@@ -138,4 +140,37 @@ button:hover {
 
 a {
     color: rgb(16, 107, 134); ;
+}
+
+input[type=password]:valid {
+    border-color: green;
+}
+
+input[type=password]:invalid {
+    border-color: red;
+}
+
+
+input[type="text"]:focus {
+    border: 4px solid #458ceb;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    outline: none;
+}
+
+input[type="number"]:focus {
+    border: 4px solid #458ceb;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    outline: none;
+}
+
+input[type="email"]:focus {
+    border: 4px solid #458ceb;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    outline: none;
+}
+
+input[type="password"]:focus {
+    border: 4px solid #458ceb;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    outline: none;
 }
