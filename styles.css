@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "Custom";
+    src: url(Norse-Bold.otf);
+}
+
+p {
+    font-family: "Custom";
+    font-size: 80px;
+    color: white;
+    position: absolute;
+    align-self: center;
+    left: 250px;
+}
+
+.logo {
+    height: 100px;
+    position: absolute;
+    align-self: center;
+    left: 170px;
+}
+
+.background {
+    height: 900px;
+}
+
+.container {
+    display: flex;
+}
+
+.grey {
+    background-color: rgb(46, 45, 45);
+    width: 600px;
+    height: 150px;
+    opacity: 0.8;
+}
+
+.box {
+    position: absolute;
+    display: flex;
+    top: 250px;
+}
