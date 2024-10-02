@@ -20,7 +20,8 @@
 }
 
 .background {
-    height: 900px;
+    height: 959px;
+    width: 500px;
 }
 
 .container {
@@ -29,7 +30,7 @@
 
 .grey {
     background-color: rgb(46, 45, 45);
-    width: 505px;
+    width: 500px;
     height: 150px;
     opacity: 0.8;
 }
