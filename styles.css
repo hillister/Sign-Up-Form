@@ -9,19 +9,19 @@
     color: white;
     position: absolute;
     align-self: center;
-    left: 220px;
+    left: 300px;
 }
 
 .logo {
     height: 100px;
     position: absolute;
     align-self: center;
-    left: 140px;
+    left: 220px;
 }
 
 .background {
     height: 959px;
-    width: 500px;
+    width: 650px;
 }
 
 .container {
@@ -30,7 +30,7 @@
 
 .grey {
     background-color: rgb(46, 45, 45);
-    width: 500px;
+    width: 650px;
     height: 150px;
     opacity: 0.8;
 }
@@ -47,11 +47,13 @@ body {
 
 .headingText {
     font-weight: 600;
-    font-size: 20px;
+    font-size: 25px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 * {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
     margin: 0;
 }
 
@@ -63,19 +65,18 @@ body {
 form {
     display: flex;
     margin-left: 60px;
-    margin-top: 40px;
     flex-direction: column;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .form-row {
     display: flex;
-    justify-content: space-between;
     margin-bottom: 20px;
 }
 
 .form-group {
     flex: 1;
-    margin-right: 10px;
+
 }
 
 label {
@@ -83,7 +84,30 @@ label {
 }
 
 input {
-    width: 100%;
+    width: 80%;
     padding: 8px;
     box-sizing: border-box;
 }
+
+.right-side {
+    background-color: rgb(245, 245, 245);
+    width: 100%;
+}
+
+.form {
+    font-size: 15px;
+    background-color: white;
+    padding-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+legend {
+    font-size: 25px;
+    color: rgb(39, 39, 39);
+    font-weight: 600;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 60px;
+    padding-top: 20px;
+}
+
